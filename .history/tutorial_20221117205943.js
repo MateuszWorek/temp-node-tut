@@ -1,0 +1,20 @@
+REPL - playing around
+node + ENTER
+> const name = "john"
+> name
+close the REPLe
+> CTR + C
+
+CLI - everything else
+// run app in terminal
+node app.js
+
+// GLOBAL VARIABLES - NO WINDOW!!!
+
+// __dirname  - path to currect directory
+// __filename - file name
+// require    - function to use modules (CommonJS)
+// module     - info about current module (file)
+// process    - info about env where the program is being executed
+
+console.log(__dirname);
